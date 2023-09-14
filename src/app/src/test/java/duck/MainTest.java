@@ -1,12 +1,12 @@
 
 package duck;
 
-import net.byteboost.duck.App;
+import net.byteboost.duck.Main;
 import org.junit.jupiter.api.Test;
-class AppTest {
+class MainTest {
 
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
+        Main classUnderTest = new Main();
 
     }
 }
