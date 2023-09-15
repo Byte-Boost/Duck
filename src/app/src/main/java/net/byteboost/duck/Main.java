@@ -7,17 +7,22 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/loadpg.fxml"));
 
-        primaryStage.setTitle("Test!");
+        Parent root = FXMLLoader.load(Objects.requireNonNull(Main.class.getResource("/fxml/aichat.fxml")));
+
+        primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root));
+
         primaryStage.show();
+
 
     }
 }
