@@ -34,7 +34,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'duck.App'
+    mainClass = 'duck.Main'
 }
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
