@@ -9,7 +9,7 @@
       <TextField alignment="TOP_LEFT" layoutX="28.0" layoutY="333.0" prefHeight="46.0" prefWidth="482.0" />
       <Button layoutX="521.0" layoutY="333.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="52.0" text="Button" />
       <ScrollPane layoutX="27.0" layoutY="52.0" prefHeight="269.0" prefWidth="546.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="5.0" prefHeight="47.0" prefWidth="209.0" text="Chat Area">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="152.0" layoutY="5.0" prefHeight="47.0" prefWidth="297.0" text="Zona do lerolero">
          <font>
             <Font size="32.0" />
          </font>

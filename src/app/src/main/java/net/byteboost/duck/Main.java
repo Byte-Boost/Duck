@@ -16,7 +16,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        Parent root = FXMLLoader.load(Objects.requireNonNull(Main.class.getResource("/fxml/aichat.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(Main.class.getResource("/fxml/upload.fxml")));
 
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root));
