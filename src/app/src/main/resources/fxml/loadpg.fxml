@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="net.byteboost.duck.gui.LoadControllerPg"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="367.0" prefWidth="531.0" style="-fx-background-color: #e3e3e3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoadControllerPg">
+   <children>
+      <Button layoutX="408.0" layoutY="87.0" mnemonicParsing="false" text="Load File" />
+      <Button layoutX="408.0" layoutY="298.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="95.0" text="Next" />
+      <Label layoutX="31.0" layoutY="93.0" prefHeight="27.0" prefWidth="359.0" style="-fx-background-color: #fafafa;" text="File_Loaded.png" />
+   </children>
 </AnchorPane>
