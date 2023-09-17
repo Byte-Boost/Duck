@@ -1,8 +1,8 @@
-# Duck
-   <!--<p align="center">
-   <image alt="header" src=""/>
-   </p>-->
-     
+<hr>
+   <p align="center">
+   <image alt="duck-logo" src="https://github.com/Byte-Boost/Duck/assets/105757405/0283f1ef-484b-4384-bccc-8973adcf4566"/>
+   </p>
+
   <p align="center">
      <a href ="#objetivo">Objetivo</a>  •
      <a href ="#visão-do-produto">Visão do produto</a>  • 
