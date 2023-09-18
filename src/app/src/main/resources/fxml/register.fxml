@@ -10,7 +10,7 @@
       <PasswordField fx:id="pf_password" layoutX="80.0" layoutY="293.0" prefHeight="26.0" prefWidth="175.0" promptText="Insira uma senha" />
       <PasswordField fx:id="pf_confirm" layoutX="81.0" layoutY="337.0" prefHeight="26.0" prefWidth="175.0" promptText="Confirme sua senha" />
       <Button layoutX="80.0" layoutY="414.0" mnemonicParsing="false" text="Voltar" />
-      <Button layoutX="275.0" layoutY="414.0" mnemonicParsing="false" text="Registrar" />
+      <Button layoutX="275.0" layoutY="414.0" mnemonicParsing="false" text="Registrar" onAction="#Register" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="132.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/duck-dance.gif" />

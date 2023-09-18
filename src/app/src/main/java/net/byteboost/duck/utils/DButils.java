@@ -23,10 +23,7 @@ public class DButils {
         }
     }
 
-
-    public static class daoUser{
-
-        public void addUser(String username, String password){
+        public static void addUser(String username, String password){
             String sql = "INSERT INTO usuario(usuario) VALUES(?)";
             try {
 
@@ -43,6 +40,5 @@ public class DButils {
                 throw new RuntimeException(exception);
             }
         }
-    }
 
 }
