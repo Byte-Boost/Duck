@@ -1,8 +1,7 @@
-<hr>
    <p align="center">
-   <image alt="duck-logo" src="https://github.com/Byte-Boost/Duck/assets/105757405/0283f1ef-484b-4384-bccc-8973adcf4566"/>
+   <image alt="duck-logo" src="https://github.com/Byte-Boost/Duck/assets/105757405/7ae98e7f-72dd-42f2-ba15-2d0f74baecda"/>
    </p>
-
+<hr>     
   <p align="center">
      <a href ="#objetivo">Objetivo</a>  •
      <a href ="#visão-do-produto">Visão do produto</a>  • 
