@@ -19,12 +19,20 @@ public class LoginController implements Initializable {
     private PasswordField pf_password;
     @FXML
     private Button btn_login;
+    @FXML
+    private Button btn_register;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btn_login.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 GUIutils.changeScene(event,"/fxml/upload.fxml","Upload",tf_username.getText(), pf_password.getText(), null);
+            }
+        });
+        btn_register.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                GUIutils.changeScene(event,"/fxml/register.fxml","Register",null,null,null);
             }
         });
     }
