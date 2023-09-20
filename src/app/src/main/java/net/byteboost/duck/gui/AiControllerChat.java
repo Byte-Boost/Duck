@@ -1,26 +1,22 @@
 package net.byteboost.duck.gui;
 
-import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.fxml.FXML;
+import dev.langchain4j.data.document.Document;
 import javafx.fxml.Initializable;
-import javafx.geometry.Pos;
-import javafx.stage.Stage;
 
-public class AiControllerChat extends Application {
+import java.net.URL;
+import java.util.ResourceBundle;
 
-    public static void main(String[] args) {
-        launch(args);
+
+public class AiControllerChat implements Initializable {
+    private static String user;
+    private static Document doc;
+    public static void saveUserInformation(String username, Document document){
+        user = username;
+        doc = document;
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void initialize(URL location, ResourceBundle resources) {
 
     }
 }

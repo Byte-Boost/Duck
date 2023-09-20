@@ -1,12 +1,20 @@
 package net.byteboost.duck.gui;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import net.byteboost.duck.utils.DButils;
+import net.byteboost.duck.utils.GUIutils;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 
-public class RegisterController{
+public class RegisterController implements Initializable {
     @FXML
     private TextField tf_username;
     @FXML
@@ -14,25 +22,38 @@ public class RegisterController{
     @FXML
     private PasswordField pf_confirm;
     @FXML
-    protected void Register(){
-        if( !tf_username.getText().trim().isEmpty()  && !pf_password.getText().trim().isEmpty()  && !pf_confirm.getText().trim().isEmpty()){
+    private Button btn_register;
+    @FXML
+    private Button btn_back;
 
-            String confirm = pf_confirm.getText();
-            String password = pf_password.getText();
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        btn_register.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                if (!tf_username.getText().trim().isEmpty() && !pf_password.getText().trim().isEmpty() && !pf_confirm.getText().trim().isEmpty()) {
 
-            if( confirm.equals(password)){
+                    String confirm = pf_confirm.getText();
+                    String password = pf_password.getText();
 
-                System.out.println("Sucesso! As senhas coincidem.");
+                    if (confirm.equals(password)) {
+                        System.out.println("Sucesso! As senhas coincidem.");
+
+                    } else {
+                        System.out.println(confirm + "," + password);
+
+                        System.out.println("Erro! As senhas não coincidem.");
+                    }
+                } else {
+                    System.out.println("Erro! Os campos se encontram vazios.");
+                }
+            }
+        });
+        btn_back.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
 
             }
-            else {
-                System.out.println(confirm + "," + password);
-
-                System.out.println("Erro! As senhas não coincidem.");
-            }
-        }
-        else {
-            System.out.println("Erro! Os campos se encontram vazios.");
-        }
+        });
     }
 }
