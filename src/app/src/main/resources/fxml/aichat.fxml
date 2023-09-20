@@ -7,7 +7,7 @@
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.AiControllerChat">
    <children>
       <TextField fx:id="tf_question" alignment="TOP_LEFT" layoutX="28.0" layoutY="333.0" prefHeight="46.0" prefWidth="482.0" />
-      <Button fx:id="btn_send" layoutX="521.0" layoutY="333.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="52.0" text="enivar" />
+      <Button fx:id="btn_send" layoutX="521.0" layoutY="333.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="52.0" text="enviar" />
       <ScrollPane layoutX="27.0" layoutY="52.0" prefHeight="269.0" prefWidth="546.0">
          <content>
             <VBox fx:id="chat" prefHeight="266.0" prefWidth="543.0" />
