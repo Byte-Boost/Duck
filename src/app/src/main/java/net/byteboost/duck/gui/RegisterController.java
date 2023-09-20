@@ -5,6 +5,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import net.byteboost.duck.utils.DButils;
@@ -25,6 +26,8 @@ public class RegisterController implements Initializable {
     private Button btn_register;
     @FXML
     private Button btn_back;
+    @FXML
+    private Label lb_notfilled;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -38,8 +41,15 @@ public class RegisterController implements Initializable {
 
                     if (confirm.equals(password)) {
                         System.out.println("Sucesso! As senhas coincidem.");
+//                                DButils.addUser(tf_username.getText(),password);
+                                GUIutils.changeScene(event,"/fxml/login.fxml","Login",tf_username.getText(),pf_password.getText(),null);
+
 
                     } else {
+
+                        pf_confirm.getStyleClass().add("not-filled");
+                        pf_password.getStyleClass().add("not-filled");
+                        lb_notfilled.setText("Erro! As senhas não coincidem.");
                         System.out.println(confirm + "," + password);
 
                         System.out.println("Erro! As senhas não coincidem.");
@@ -52,7 +62,7 @@ public class RegisterController implements Initializable {
         btn_back.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-
+                GUIutils.changeScene(event, "/fxml/login.fxml","login",null,null,null);
             }
         });
     }
