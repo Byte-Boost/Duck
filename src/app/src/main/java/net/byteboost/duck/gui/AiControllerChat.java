@@ -1,8 +1,12 @@
 package net.byteboost.duck.gui;
 
 import dev.langchain4j.data.document.Document;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.geometry.Pos;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -20,7 +24,7 @@ public class AiControllerChat implements Initializable {
         doc = document;
     }
     @FXML
-    private Button button_send;
+    private Button btn_send;
     @FXML
     private TextField tf_question;
     @FXML
@@ -28,6 +32,18 @@ public class AiControllerChat implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        btn_send.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                //Criação de labels pergunta no chat
+                Label question = new Label(tf_question.getText());
+                HBox hBoxQuestion = new HBox();
+                hBoxQuestion.getChildren().add(question);
+                hBoxQuestion.setAlignment(Pos.BASELINE_RIGHT);
+                hBoxQuestion.setStyle("-fx-padding:0 30 0 0");
+                chat.getChildren().add(hBoxQuestion);
+                chat.setSpacing(10);
+            }
+        });
     }
 }
