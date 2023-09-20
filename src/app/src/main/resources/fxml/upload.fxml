@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #e3e3e3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.UploadController">
+<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #e3e3e3;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.UploadController">
    <children>
-      <Button layoutX="391.0" layoutY="83.0" mnemonicParsing="false" onAction="#fileSelect" text="Load File" />
-      <Button layoutX="391.0" layoutY="296.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="Next" />
+      <Button fx:id="btn_upload" layoutX="391.0" layoutY="90.0" mnemonicParsing="false" text="Load File" />
+      <Button fx:id="btn_next" layoutX="391.0" layoutY="296.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="Next" />
       <Label fx:id="selectedFileField" layoutX="30.0" layoutY="85.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #fafafa; -fx-padding: 5;">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Label>
-      <ImageView fitHeight="120.0" fitWidth="124.0" layoutX="188.0" layoutY="153.0">
+      <ImageView fitHeight="120.0" fitWidth="124.0" layoutX="188.0" layoutY="152.0">
          <image>
-            <Image url="@../images/duck-dance.gif" />
+            <Image url="@../images/ducklog.png" />
          </image>
       </ImageView>
+      <Button fx:id="btn_back" layoutX="30.0" layoutY="296.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="Back" />
    </children>
 </AnchorPane>

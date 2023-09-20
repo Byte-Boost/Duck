@@ -4,17 +4,14 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="364.0" text="Login Page" textAlignment="CENTER" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
-  <content>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-         <children>
-            <PasswordField layoutX="107.0" layoutY="191.0" prefHeight="30.0" prefWidth="149.0" promptText="Password" />
-            <TextField layoutX="107.0" layoutY="146.0" prefHeight="30.0" prefWidth="149.0" promptText="E-mail " />
-            <Button layoutX="155.0" layoutY="250.0" mnemonicParsing="false" text="Login" />
-            <ImageView fitHeight="112.0" fitWidth="159.0" layoutX="128.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="/images/duck-dance.gif" />
-               </image></ImageView>
-         </children></AnchorPane>
-  </content>
-</TitledPane>
+<AnchorPane prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
+   <children>
+      <ImageView fitHeight="177.0" fitWidth="166.0" layoutX="145.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ducklog-text.png" />
+         </image></ImageView>
+      <TextField fx:id="tf_username" layoutX="128.0" layoutY="234.0" prefHeight="32.0" prefWidth="183.0" promptText="Username" />
+      <PasswordField fx:id="pf_password" layoutX="128.0" layoutY="276.0" prefHeight="32.0" prefWidth="183.0" promptText="Password" />
+      <Button fx:id="btn_login" layoutX="197.0" layoutY="325.0" mnemonicParsing="false" text="Login" />
+   </children>
+</AnchorPane>
