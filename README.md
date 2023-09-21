@@ -20,8 +20,9 @@
 
 
 
-
-## Objetivo
+<span id="objetivo">
+   
+## :dart: Objetivo 
 
 
 
@@ -29,19 +30,11 @@
 ## Visão do Produto   
    
    
+<span id="cronograma">  
    
-## Cronograma   
-   | Entrega           | Inicio | Término | 
-   |-------------------|--------|---------|
-   | Kick-off          | 21/08  |  28/08  |
-   | Sprint 1          | 04/09  |  24/09  |
-   | Sprint 2          | 25/09  |  15/10  |
-   | Sprint 3          | 16/10  |  05/11  |
-   | Sprint 4          | 06/11  |  26/11  |
-   | Feira de soluções | 12/12  |  12/12  |
+## :spiral_calendar: Cronograma   
 
-
-
+![Entregas-duck](https://github.com/Byte-Boost/Duck/assets/105757405/20adc7a6-2cf4-4ad3-99af-e8f9447cacb9)
 
 ## Backlog / Entregas
 
@@ -68,8 +61,9 @@
 
 
 
-
-## Tecnologias:
+<span id="tecnologias">
+   
+## :desktop_computer:Tecnologias:
 * <p>
    <img align="left" title="intellij-logo" height="30px" src="https://skillicons.dev/icons?i=java"/>
    Java
@@ -96,7 +90,7 @@
  </p>
 
 
-### Ferramentas:
+## :hammer_and_wrench:Ferramentas:
 * <p>
    <img align="left" title="github-dark" height="30px" src="https://user-images.githubusercontent.com/76211125/227561942-1503fb74-eb8e-41d1-936e-bf22bc2d70eb.png#gh-dark-mode-only"/>
    <img align="left" title="github-light" height="30px" src="https://user-images.githubusercontent.com/76211125/227561896-a90cea71-7431-4908-ac8d-71fc02603eeb.png#gh-light-mode-only"/>
@@ -114,8 +108,9 @@
  </p>
 
 
-
-## Equipe:
+<span id="equipe">
+   
+## :busts_in_silhouette:Equipe:
    ### ![Static Badge](https://img.shields.io/badge/Product_Owner-219ebc) - Diego Vitvicki :
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/diegovitvicki/)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/dievit)
