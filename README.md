@@ -26,8 +26,9 @@
 
 
 
-
-## Visão do Produto   
+<span id="visão-do-produto">
+   
+## :eye_speech_bubble: Visão do Produto   
    
    
 <span id="cronograma">  
@@ -36,12 +37,15 @@
 
 ![Entregas-duck](https://github.com/Byte-Boost/Duck/assets/105757405/20adc7a6-2cf4-4ad3-99af-e8f9447cacb9)
 
-## Backlog / Entregas
+<span id="backlog--entregas">
+   
+## :pushpin: Backlog / Entregas
 
 
 
+<span id="requisitos">
 
-## Requisitos
+## :mag_right: Requisitos
 <details>
    <summary>Funcionais:</summary>
    <ul>
