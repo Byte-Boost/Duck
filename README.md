@@ -23,14 +23,13 @@
 <span id="objetivo">
    
 ## :dart: Objetivo 
-
-
+O objetivo do nosso produto é simplificar a extração de insights de documentos escritos. Usando inteligência artificial, capacitamos os usuários a gerar perguntas relevantes e obter respostas instantâneas, aprimorando a produtividade em estudos e análises.
 
 <span id="visão-do-produto">
    
 ## :eye_speech_bubble: Visão do Produto   
-   
-   
+Nosso produto é uma aplicação Java desktop que, através de inteligência artificial, permite aos usuários extrair perguntas e respostas de documentos PDF ou TXT, tornando a análise de conteúdo mais eficiente.
+
 <span id="cronograma">  
    
 ## :spiral_calendar: Cronograma   
