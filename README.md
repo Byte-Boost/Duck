@@ -38,9 +38,50 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
 <span id="backlog--entregas">
    
-## :pushpin: Backlog / Entregas
+## :pushpin: Product Backlog
+| Sprint | Requisitos | Prioridade | Descrição |
+| --- | --- | --- | --- |
+| 1 | Tela de carregamento de doc. funcional. | Alta | Uma interface gráfica para o carregamento do arquivo de texto a inserir no assistente virtual. |
+| 1 | Tela em formato de chat. | Alta | Uma interface gráfica para inserir perguntas e obter respostas a respeito do arquivo carregado. |
+| 1 | Integração da IA. | Alta | Aplicação da mecânica da IA com as telas de carregamento e chat para obter as respostas desejadas. |
+| 1 | Registro e documentação via Github. | Alta | Documentar e registrar o processo de criação e desenvolvimento através do Github. |
+| 1 | Product Backlog | Média | Desenvolver o backlog total do produto |
+| 1 | Criação de protótipo Figma | Média | Criação de um protótipo via Figma para esquema visual do produto. |
+| 1 | Tela de cadastro. | Baixa | Uma tela para cadastro de usuários. |
+| 1 | Tela de login. | Baixa | Interface gráfica de login para o usuário acessar o assistente virtual. |
+| 2 | Tela de registro de atividades. | Alta | Interface gráfica para visualizar o registro contendo usuário, data e nome do arquivo. |
+| 2 | Banco de dados | Alta | Criação do banco de dados[(sem conexão) pensar na implementação e conexão |
+| 2 | Conexão com Banco de dados | Alta | Será feita a conexão do banco de dados com todas as telas e funções que necessitam de tal aplicação. |
+| 2 | Aperfeiçoamento da GUI(estilização) | Média | Aperfeiçoamento estético da interface gráfica. |
+| 3 | Formatação dos textos de entrada | Alta | Identificar uma melhor maneira de formatar os textos de entrada para obter respostas mais acuradas. |
+| 3 | Sistema de confirmação de e-mail | Média | Criar um sistema de confirmação de e-mail do usuário para que possibilite a recuperação de senha e ou o envio de informações. |
+| 3 | Sistema de recuperação de senha | Média | Criar um sistema de recuperação de senha através do login e-mail. |
+| 4 | Integração com aplicativo de mensagens | Alta | Realizar a integração do assistente com o aplicativo de mensagens Telegram. |
+| 4 | Incrementos | Média | Sugestões da equipe para incremento da aplicação |
 
+## :pushpin: Entregas Sprint 1
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Desenvolvimento do Product Backlog | Alta | Entregue |
+| Criação de Protótipo para referência. | Alta | Entregue |
+| Criação de Repositórios para documentação via Github. | Alta | Entregue |
+| Integração com a IA | Alta | Entregue |
+| Desenvolver uma tela de carregamento de arquivos. | Média | Entregue |
+| Desenvolver uma tela de chat. | Média | Entregue |
+| Tela de login | Baixa | Entregue |
+| Tela de cadastro | Baixa | Entregue |
 
+## 📌 User Stories
+| ID | SPRINT | US | ESTIMATIVA DE ESFORÇO EM HORAS | TASK | CRITÉRIO DE ACEITAÇÃO |
+| --- | --- | --- | --- | --- | --- |
+| US01 | 1 | EU, enquanto cliente, desejo estar ciente das etapas do processo de desenvolvimento do produto. | 2:00 | Desenvolvimento do backlog total do produto e das Sprints. | Product Backlog e Sprint Backlog com US da primeira sprint. |
+| US02 | 1 | EU, enquanto cliente, desejo poder ter acesso ao registro, documentação e versionamento das etapas do processo de desenvolvimento do produto. | 2:00 | Criação do repositório no GitHub e definição de informações essenciais. | Definição de informações gerais no README com descrição clara e concisa, dentro da estrutura padronizada. |
+| US03 | 1 | EU, enquanto membro da equipe de desenvolvimento, desejo ter um protótipo visual e parcialmente funcional como referência para o projeto. | 1:00 | Caixas de diálogo, input e output e botões que serão utilizados na GUI do projeto. | Visualização e fundamentação de como será a aparência e dinâmica da aplicação. |
+| US04 | 1 | EU, enquanto usuário, desejo realizar através de uma interface gráfica o carregamento de arquivos dos quais desejo obter informações por meio do assistente virtual. | 2:00 | Desenvolver uma tela de carregamento de arquivo. | A tela de carregamento deve estar totalmente funcional, botões e acesso ao explorer. |
+| US05 | 1 | EU, enquanto usuário, desejo obter através de uma interface gráfica em formato de CHAT para realizar perguntas e visualizar respostas. | 1:30 | Desenvolver uma tela de chat. | A tela de chat deve estar totalmente funcional, enviando perguntas e recebendo respostas. |
+| US06 | 1 | EU, enquanto usuário, desejo obter respostas sobre os documentos carregados e analisados pela IA. | 1:30 | Integração da IA. | A aplicação deve estar retornando informações referente às perguntas feitas pelo usuário . |
+| US07 | 1 | EU, enquanto usuário administrador, desejo ter informações sobre o usuário que está utilizando a aplicação | 1:30 | Desenvolver uma tela de login. | A interface deve estar visualmente pronta. |
+| US08 | 1 | EU, enquanto usuário administrador, desejo poder cadastrar outros usuários através de uma interface gráfica. | 1:30 | Desenvolver uma tela de cadastros. | A interface deve estar visualmente pronta. |
 
 <span id="requisitos">
 
