@@ -59,9 +59,10 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 4 | Integração com aplicativo de mensagens | Alta | Realizar a integração do assistente com o aplicativo de mensagens Telegram. |
 | 4 | Incrementos | Média | Sugestões da equipe para incremento da aplicação |
 
-## :pushpin: Entregas Sprint 1
+## 🎥 Video Apresentação
+<strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
 
-<div align="center">
+  
    
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
@@ -77,6 +78,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 <image alt="sprint1gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/2d0dc65b-626c-43af-9bff-d729252731b6"/>
 
 </div>
+
 
 
 ## 📌 User Stories
