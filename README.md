@@ -64,19 +64,19 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
   
    
+## Sprint 2
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
-| Desenvolvimento do Product Backlog | Alta | Entregue |
-| Criação de Protótipo para referência. | Alta | Entregue |
-| Criação de Repositórios para documentação via Github. | Alta | Entregue |
-| Integração com a IA | Alta | Entregue |
-| Desenvolver uma tela de carregamento de arquivos. | Média | Entregue |
-| Desenvolver uma tela de chat. | Média | Entregue |
-| Tela de login | Baixa | Entregue |
-| Tela de cadastro | Baixa | Entregue |
+| Desenvolvimento da tela de registro de atividades     | Alta | Entregue |
+| Integração com o banco de dados | Alta | Entregue |
+| Frontend tela de login | Média | Entregue |
+| Frontend tela de cadastro | Média | Entregue |
+| Frontend tela de carregamento de arquivos | Média | Entregue |
+| Frontend tela de chat | Média | Entregue |
+| Tela de cadastro. | Baixa | Entregue |
+| Tela de login. | Baixa | Entregue |
 
 <image alt="sprint2gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a2120cdf-8df0-4202-b9b3-61fcb2e6fd25"/>
-
 
 </div>
 
