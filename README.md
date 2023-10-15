@@ -80,7 +80,8 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | Tela de login | Baixa | Entregue |
 | Tela de cadastro | Baixa | Entregue |
 
-<image alt="sprint1gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/2d0dc65b-626c-43af-9bff-d729252731b6"/>
+<image alt="sprint2gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a2120cdf-8df0-4202-b9b3-61fcb2e6fd25"/>
+
 
 
 ## Sprint 2
