@@ -49,10 +49,15 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 1 | Criação de protótipo Figma | Média | Criação de um protótipo via Figma para esquema visual do produto. |
 | 1 | Tela de cadastro. | Baixa | Uma tela para cadastro de usuários. |
 | 1 | Tela de login. | Baixa | Interface gráfica de login para o usuário acessar o assistente virtual. |
-| 2 | Tela de registro de atividades. | Alta | Interface gráfica para visualizar o registro contendo usuário, data e nome do arquivo. |
-| 2 | Banco de dados | Alta | Criação do banco de dados[(sem conexão) pensar na implementação e conexão |
-| 2 | Conexão com Banco de dados | Alta | Será feita a conexão do banco de dados com todas as telas e funções que necessitam de tal aplicação. |
-| 2 | Aperfeiçoamento da GUI(estilização) | Média | Aperfeiçoamento estético da interface gráfica. |
+| 2 | Tela de registro de atividades. | Alta | Tela de registro de atividades conectada ao banco de dados e em estado funcional. |
+| 2 | Banco de dados | Alta | Integração do banco de dados com o projeto e todas as telas que necessitam de conexão ao BD. |
+| 2 | Frontend tela de login | Média | Aperfeiçoamento e padronização da identidade visual da tela de login. |
+| 2 | Frontend tela de cadastro | Média | Aperfeiçoamento e padronização da identidade visual da tela de cadastros. |
+| 2 | Frontend tela de carregamento de arquivos | Média | Aperfeiçoamento e padronização da identidade visual da tela de carregamento de arquivos. |
+| 2 | Frontend tela de chat | Média | Aperfeiçoamento e padronização da identidade visual da tela de chat |
+| 2 | Botão de retorno | Baixa | Adição de botão para retorno da página de chat para a página de carregamento de arquivo. |
+| 2 | Tela de cadastro funcional. | Baixa | Tela de cadastro conectada ao banco de dados e em estado funcional. |
+| 2 | Tela de login funcional. | Baixa | Tela de login conectada ao banco de dados e em estado funcional. |
 | 3 | Formatação dos textos de entrada | Alta | Identificar uma melhor maneira de formatar os textos de entrada para obter respostas mais acuradas. |
 | 3 | Sistema de confirmação de e-mail | Média | Criar um sistema de confirmação de e-mail do usuário para que possibilite a recuperação de senha e ou o envio de informações. |
 | 3 | Sistema de recuperação de senha | Média | Criar um sistema de recuperação de senha através do login e-mail. |
@@ -63,7 +68,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
 
   
-   
+## Sprint 1   
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
 | Desenvolvimento do Product Backlog | Alta | Entregue |
@@ -76,6 +81,19 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | Tela de cadastro | Baixa | Entregue |
 
 <image alt="sprint1gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/2d0dc65b-626c-43af-9bff-d729252731b6"/>
+
+
+## Sprint 2
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Desenvolvimento da tela de registro de atividades     | Alta | Entregue |
+| Integração com o banco de dados | Alta | Entregue |
+| Frontend tela de login | Média | Entregue |
+| Frontend tela de cadastro | Média | Entregue |
+| Frontend tela de carregamento de arquivos | Média | Entregue |
+| Frontend tela de chat | Média | Entregue |
+| Tela de cadastro. | Baixa | Entregue |
+| Tela de login. | Baixa | Entregue |
 
 </div>
 
@@ -92,6 +110,12 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | US06 | 1 | EU, enquanto usuário, desejo obter respostas sobre os documentos carregados e analisados pela IA. | 1:30 | Integração da IA. | A aplicação deve estar retornando informações referente às perguntas feitas pelo usuário . |
 | US07 | 1 | EU, enquanto usuário administrador, desejo ter informações sobre o usuário que está utilizando a aplicação | 1:30 | Desenvolver uma tela de login. | A interface deve estar visualmente pronta. |
 | US08 | 1 | EU, enquanto usuário administrador, desejo poder cadastrar outros usuários através de uma interface gráfica. | 1:30 | Desenvolver uma tela de cadastros. | A interface deve estar visualmente pronta. |
+| US09 | 2 | EU, enquanto usuário administrador, desejo obter informações sobre o usuário atual, hora, data e nome do arquivo carregado através de uma interface gráfica | 3:00 | Desenvolver uma tela de registro de atividades. | A interface deve mostrar os dados de usuário, data, hora e nome do arquivo carregado. |
+| US10 | 2 | EU, enquanto usuário administrador, desejo que a aplicação tenha um banco de dados conectado para armazenamento e registros uteis à aplicação. | 4:00 | Conectar o banco de dados às interfaces. | O banco de dados deve estar conectado às interfaces e respondendo às requisições do sistema. |
+| US11 | 2 | EU, enquanto membro da equipe de desenvolvimento, desejo que o frontend das telas de login, cadastro, carregamento de arquivo, registro de atividades e de chat tenham uma identidade visual padronizada. | 10:00 | Padronizar a estética das interfaces gráficas. | As telas devem seguir uma identidade visual em padrão de cores, fontes e tamanho de botões. |
+| US12 | 2 | EU, enquanto usuário, desejo poder retornar da página de chat à pagina de carregamento de arquivo. | 00:30 | Adicionar um botão de retorno de página. | O botão de retorno deve levar o usuário da página de chat a página de carregamento de arquivos. |
+| US13 | 2 | EU, enquanto usuário administrador, desejo poder cadastrar usuários do sistema para registro e segurança. | 2:00 | Deixar a tela de cadastros funcional e ligada ao banco de dados. | A tela de cadastros deve estar devidamente operacional e funcional. |
+| US14 | 2 | EU, enquanto usuário administrador, desejo que o acesso ao sistema seja feito apenas após um login de usuário cadastrado. | 2:00 | Deixar a tela de login funcional e ligada ao banco de dados. | A tela de login deve estar devidamente operacional e funcional. |
 
 <span id="requisitos">
 
