@@ -64,6 +64,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
   
    
+## Sprint 1   
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
 | Desenvolvimento do Product Backlog | Alta | Entregue |
