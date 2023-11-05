@@ -49,20 +49,23 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 1 | Criação de protótipo Figma | Média | Criação de um protótipo via Figma para esquema visual do produto. |
 | 1 | Tela de cadastro. | Baixa | Uma tela para cadastro de usuários. |
 | 1 | Tela de login. | Baixa | Interface gráfica de login para o usuário acessar o assistente virtual. |
-| 2 | Tela de registro de atividades. | Alta | Tela de registro de atividades conectada ao banco de dados e em estado funcional. |
-| 2 | Banco de dados | Alta | Integração do banco de dados com o projeto e todas as telas que necessitam de conexão ao BD. |
-| 2 | Frontend tela de login | Média | Aperfeiçoamento e padronização da identidade visual da tela de login. |
-| 2 | Frontend tela de cadastro | Média | Aperfeiçoamento e padronização da identidade visual da tela de cadastros. |
-| 2 | Frontend tela de carregamento de arquivos | Média | Aperfeiçoamento e padronização da identidade visual da tela de carregamento de arquivos. |
-| 2 | Frontend tela de chat | Média | Aperfeiçoamento e padronização da identidade visual da tela de chat |
-| 2 | Botão de retorno | Baixa | Adição de botão para retorno da página de chat para a página de carregamento de arquivo. |
-| 2 | Tela de cadastro funcional. | Baixa | Tela de cadastro conectada ao banco de dados e em estado funcional. |
-| 2 | Tela de login funcional. | Baixa | Tela de login conectada ao banco de dados e em estado funcional. |
-| 3 | Formatação dos textos de entrada | Alta | Identificar uma melhor maneira de formatar os textos de entrada para obter respostas mais acuradas. |
-| 3 | Sistema de confirmação de e-mail | Média | Criar um sistema de confirmação de e-mail do usuário para que possibilite a recuperação de senha e ou o envio de informações. |
-| 3 | Sistema de recuperação de senha | Média | Criar um sistema de recuperação de senha através do login e-mail. |
+| 2 | Tela de registro de atividades. | Alta | Interface gráfica para visualizar o registro contendo usuário, data e nome do arquivo. |
+| 2 | Banco de dados | Alta | Criação do banco de dados[(sem conexão) pensar na implementação e conexão |
+| 2 | Conexão com Banco de dados | Alta | Será feita a conexão do banco de dados com todas as telas e funções que necessitam de tal aplicação. |
+| 2 | Aperfeiçoamento da GUI(estilização) | Média | Aperfeiçoamento estético da interface gráfica. |
+| 3 | Aperfeiçoamento do código para melhor experiência de respostas | Alta | Inserção e aperfeiçoamento do código para aumentar a experiência das respostas obtidas através da IA. |
+| 3 | Frontend da tela de login | Média | Inserção de botão que permite ao usuário informar que não lembra da sua senha de acesso e o leva a uma tela de recuperação de senha |
+| 3 | Frontend da tela de recuperação de senha | Média | Criação de uma interface gráfica onde o usuário possa solicitar a recuperação do acesso em caso de perda de senha. |
+| 3 | Backend da tela de recuperação de senha | Média | Implementação dos códigos necessários para o funcionamento do sistema de recuperação de senha |
+| 3 | Backend sistema de envio de código para recuperação de senha | Média | Implementação dos códigos necessários para o envio de um e-mail de recuperação de senha com um token de verificação, utilização de java e HTML. |
+| 3 | Frontend tela de inserção de código de recuperação de senha | Média | Criação de uma interface gráfica onde o usuário ira inserir o token de verificação para dar início ao processo de criação da nova senha de acesso. |
+| 3 | Backend sistema de inserção de código de recuperação de senha | Média | Implementação dos códigos necessários para que o token de verificação seja confirmado pelo sistema e o envie para a etapa de cadastro de nova senha. |
+| 3 | Frontend da tela para criação de nova senha | Média | Criação de uma interface gráfica onde o usuário criará sua nova senha. |
+| 3 | Backend do sistema de criação de nova senha | Média | Implementação dos códigos que permitirão a alteração da antiga senha por uma nova e seu respectivo registro no Banco de Dados. |
+| 3 | Frontend implementação de visualizar/ocultar senha | Baixa | Alteração visual na tela de login permitindo a visualização/ocultação da senha por meio do clique do mouse. |
 | 4 | Integração com aplicativo de mensagens | Alta | Realizar a integração do assistente com o aplicativo de mensagens Telegram. |
-| 4 | Incrementos | Média | Sugestões da equipe para incremento da aplicação |
+| 4 | Multithreading | Média | Implementação da funcionalidade multithreading que permitirá fazer novas perguntas enquanto a IA processa a resposta anterior. |
+| 4 | Criptografia de senhas | Média | Implementação de hash para criptografia de senhas para maior segurança. |
 
 ## 🎥 Video Apresentação
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
@@ -97,6 +100,16 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
 <image alt="sprint2gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a2120cdf-8df0-4202-b9b3-61fcb2e6fd25"/>
 
+## Sprint 3
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Aperfeiçoamento do código para melhor experiência de respostas | Alta | Entregue |
+| Botão para recuperar senha | Média | Entregue |
+| Tela para solicitação de senha | Média | Entregue |
+| Sistema de confirmação de e-mail | Média | Entregue |
+| Tela para criação de nova senha | Média | Entregue |
+| Botão para ocultar/mostrar senha | Baixa | Entregue |
+
 </div>
 
 
@@ -118,7 +131,11 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | US12 | 2 | EU, enquanto usuário, desejo poder retornar da página de chat à pagina de carregamento de arquivo. | 00:30 | Adicionar um botão de retorno de página. | O botão de retorno deve levar o usuário da página de chat a página de carregamento de arquivos. |
 | US13 | 2 | EU, enquanto usuário administrador, desejo poder cadastrar usuários do sistema para registro e segurança. | 2:00 | Deixar a tela de cadastros funcional e ligada ao banco de dados. | A tela de cadastros deve estar devidamente operacional e funcional. |
 | US14 | 2 | EU, enquanto usuário administrador, desejo que o acesso ao sistema seja feito apenas após um login de usuário cadastrado. | 2:00 | Deixar a tela de login funcional e ligada ao banco de dados. | A tela de login deve estar devidamente operacional e funcional. |
-
+| US15 | 3 | EU, enquanto usuário, desejo obter uma melhor experiência e eficiência nas respostas geradas pela IA através do Chat. | 3:00 | Implementar códigos e métodos em java que aumentem a eficiência na tokenização do texto. | Obter respostas mais assertivas, mais longas e detalhadas. |
+| US16 | 3 | EU, enquanto usuário, desejo ter um botão na tela de login para recuperar a senha perdida/esquecida. | 2:45 | Implementar um botão de recuperação de senha. | Um botão funcional que leve a uma tela de recuperação de senha. |
+| US17 | 3 | EU, enquanto usuário, desejo ser direcionado para uma tela de recuperação de senha. | 2:00 | Criação de um frontend e backend de um sistema que enviará um e-mail com um token de confirmação. | Uma tela funcional que envie um e-mail com um token de confirmação para a recuperação de senha. |
+| US18 | 3 | Eu, enquanto usuário, desejo ser direcionado para uma tela de criação de nova senha. | 6:30 | Criação de frontend e backend de um sistema de inserção do token de confirmação | Uma tela funciona onde o usuário ira inserir o token e estará habilitado a criar uma nova senha. |
+| US19 | 3 | EU, enquanto usuário, desejo poder ocultar ou mostrar minha senha digitada no campo de texto na tela de login. | 1:00 | Alteração no frontend da tela de login para adição de um botão ocultar/mostrar senha. | Um botão funcional que oculte ou mostre a senha digitada no campo de senha na tela de login. |
 <span id="requisitos">
 
 ## :mag_right: Requisitos
