@@ -71,6 +71,35 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
 
   
+## Sprint 1   
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Desenvolvimento do Product Backlog | Alta | Entregue |
+| Criação de Protótipo para referência. | Alta | Entregue |
+| Criação de Repositórios para documentação via Github. | Alta | Entregue |
+| Integração com a IA | Alta | Entregue |
+| Desenvolver uma tela de carregamento de arquivos. | Média | Entregue |
+| Desenvolver uma tela de chat. | Média | Entregue |
+| Tela de login | Baixa | Entregue |
+| Tela de cadastro | Baixa | Entregue |
+
+<image alt="sprint1gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/2d0dc65b-626c-43af-9bff-d729252731b6"/>
+
+
+## Sprint 2
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Desenvolvimento da tela de registro de atividades     | Alta | Entregue |
+| Integração com o banco de dados | Alta | Entregue |
+| Frontend tela de login | Média | Entregue |
+| Frontend tela de cadastro | Média | Entregue |
+| Frontend tela de carregamento de arquivos | Média | Entregue |
+| Frontend tela de chat | Média | Entregue |
+| Tela de cadastro. | Baixa | Entregue |
+| Tela de login. | Baixa | Entregue |
+
+<image alt="sprint2gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a2120cdf-8df0-4202-b9b3-61fcb2e6fd25"/>
+
 ## Sprint 3
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
