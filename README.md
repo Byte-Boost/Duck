@@ -110,6 +110,9 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | Tela para criação de nova senha | Média | Entregue |
 | Botão para ocultar/mostrar senha | Baixa | Entregue |
 
+
+<image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/6ebb6341-1674-4428-b261-929daadb988e"/>
+
 </div>
 
 
@@ -136,6 +139,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | US17 | 3 | EU, enquanto usuário, desejo ser direcionado para uma tela de recuperação de senha. | 2:00 | Criação de um frontend e backend de um sistema que enviará um e-mail com um token de confirmação. | Uma tela funcional que envie um e-mail com um token de confirmação para a recuperação de senha. |
 | US18 | 3 | Eu, enquanto usuário, desejo ser direcionado para uma tela de criação de nova senha. | 6:30 | Criação de frontend e backend de um sistema de inserção do token de confirmação | Uma tela funciona onde o usuário ira inserir o token e estará habilitado a criar uma nova senha. |
 | US19 | 3 | EU, enquanto usuário, desejo poder ocultar ou mostrar minha senha digitada no campo de texto na tela de login. | 1:00 | Alteração no frontend da tela de login para adição de um botão ocultar/mostrar senha. | Um botão funcional que oculte ou mostre a senha digitada no campo de senha na tela de login. |
+
 <span id="requisitos">
 
 ## :mag_right: Requisitos
