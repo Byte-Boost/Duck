@@ -39,6 +39,9 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 <span id="backlog--entregas">
    
 ## :pushpin: Product Backlog
+
+<details>
+   
 | Sprint | Requisitos | Prioridade | Descrição |
 | --- | --- | --- | --- |
 | 1 | Tela de carregamento de doc. funcional. | Alta | Uma interface gráfica para o carregamento do arquivo de texto a inserir no assistente virtual. |
@@ -66,10 +69,14 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 4 | Integração com aplicativo de mensagens | Alta | Realizar a integração do assistente com o aplicativo de mensagens Telegram. |
 | 4 | Multithreading | Média | Implementação da funcionalidade multithreading que permitirá fazer novas perguntas enquanto a IA processa a resposta anterior. |
 | 4 | Criptografia de senhas | Média | Implementação de hash para criptografia de senhas para maior segurança. |
+   
+</details>
 
 ## 🎥 Video Apresentação
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
 
+<details>
+ <summary>Sprints</summary>
   
 ## Sprint 1   
 | Tarefa | Prioridade | Status |
@@ -115,9 +122,13 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
 </div>
 
+</details>
 
 
 ## 📌 User Stories
+
+<details>
+   
 | ID | SPRINT | US | ESTIMATIVA DE ESFORÇO EM HORAS | TASK | CRITÉRIO DE ACEITAÇÃO |
 | --- | --- | --- | --- | --- | --- |
 | US01 | 1 | EU, enquanto cliente, desejo estar ciente das etapas do processo de desenvolvimento do produto. | 2:00 | Desenvolvimento do backlog total do produto e das Sprints. | Product Backlog e Sprint Backlog com US da primeira sprint. |
@@ -139,6 +150,8 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | US17 | 3 | EU, enquanto usuário, desejo ser direcionado para uma tela de recuperação de senha. | 2:00 | Criação de um frontend e backend de um sistema que enviará um e-mail com um token de confirmação. | Uma tela funcional que envie um e-mail com um token de confirmação para a recuperação de senha. |
 | US18 | 3 | Eu, enquanto usuário, desejo ser direcionado para uma tela de criação de nova senha. | 6:30 | Criação de frontend e backend de um sistema de inserção do token de confirmação | Uma tela funciona onde o usuário ira inserir o token e estará habilitado a criar uma nova senha. |
 | US19 | 3 | EU, enquanto usuário, desejo poder ocultar ou mostrar minha senha digitada no campo de texto na tela de login. | 1:00 | Alteração no frontend da tela de login para adição de um botão ocultar/mostrar senha. | Um botão funcional que oculte ou mostre a senha digitada no campo de senha na tela de login. |
+
+</details>
 
 <span id="requisitos">
 
