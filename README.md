@@ -220,6 +220,49 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
    <img align="left" title="figma-logo" height="30px" src="https://skillicons.dev/icons?i=figma"/>
    Figma
  </p>
+ 
+<span id="como-usar">
+   
+# Como utilizar
+
+ Requisitos :
+ - IntelliJ IDEA
+ - Java 17+
+ - JFX 20+
+ - Git
+ - [Gradle](https://gradle.org/install/)
+
+> [!IMPORTANT]
+> Configure as [Variáveis de Ambiente](https://phoenixnap.com/kb/windows-set-environment-variable)
+
+```java
+DUCK_API_KEY = API do Hugging-Face
+DUCK_DB_PASSWORD = Senha do banco local
+DUCK_DB_USER = Usuario do banco local
+DUCK_EMAIL = E-mail que realizará envio de confirmações de senha
+DUCK_EMAIL_PASSWORD = Senha do E-mail acima
+```
+
+Após configurar as variáveis
+1. Abra o cmd na pasta aonde deseja instalar o projeto
+2. Execute os comandos 
+```
+git clone https://github.com/Byte-Boost/Duck
+cd Duck
+cd Backend_Duck
+idea64.exe
+```
+3. Vá para as configuraçõees de Run/Debug
+4. Clique em Modify options
+5. Clique em Add VM options
+6. No campo agora disponivel adicione o seguinte, modificando PATH_TO_JAVAFX/lib com o caminho da pasta lib dentro do diretorio do JavaFX local.
+
+> [!WARNING]
+> Não se esqueça de colocar o caminho entre aspas.
+```
+--module-path PATH_TO_JAVAFX/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls
+```
+7. Rode o projeto através do IntelliJ
 
 
 <span id="equipe">
