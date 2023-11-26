@@ -66,64 +66,31 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 3 | Frontend da tela para criação de nova senha | Média | Criação de uma interface gráfica onde o usuário criará sua nova senha. |
 | 3 | Backend do sistema de criação de nova senha | Média | Implementação dos códigos que permitirão a alteração da antiga senha por uma nova e seu respectivo registro no Banco de Dados. |
 | 3 | Frontend implementação de visualizar/ocultar senha | Baixa | Alteração visual na tela de login permitindo a visualização/ocultação da senha por meio do clique do mouse. |
-| 4 | Integração com aplicativo de mensagens | Alta | Realizar a integração do assistente com o aplicativo de mensagens Telegram. |
-| 4 | Multithreading | Média | Implementação da funcionalidade multithreading que permitirá fazer novas perguntas enquanto a IA processa a resposta anterior. |
+| 4 | Alteração no tamanho e qualidade das respostas | Alta | Alteração no código para melhoria no tamanho e qualidade das respostas exibidas. |
+| 4 | Melhoria na exibição do histórico | Alta | Modificações para que a exibição do histórico de arquivos carregados mostrem apenas informações relacionadas ao usuário que está logado. |
 | 4 | Criptografia de senhas | Média | Implementação de hash para criptografia de senhas para maior segurança. |
-   
+| 4 | Multithreading | Média | Implementação de multithreading permitindo o processamento de mais de uma resposta e pergunta ao mesmo tempo. |
+| 4 | Exclusão de arquivos temporários | Média | Implementação de código para excluir arquivos gerados pela aplicação. |
+| 4 | Documentação | Baixa | Criação de um quickstart para guiar a utilização da aplicação |
+
 </details>
 
 ## 🎥 Video Apresentação
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
 
-<details>
- <summary>Sprints</summary>
-  
-## Sprint 1   
+## Sprint 4
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
-| Desenvolvimento do Product Backlog | Alta | Entregue |
-| Criação de Protótipo para referência. | Alta | Entregue |
-| Criação de Repositórios para documentação via Github. | Alta | Entregue |
-| Integração com a IA | Alta | Entregue |
-| Desenvolver uma tela de carregamento de arquivos. | Média | Entregue |
-| Desenvolver uma tela de chat. | Média | Entregue |
-| Tela de login | Baixa | Entregue |
-| Tela de cadastro | Baixa | Entregue |
-
-<image alt="sprint1gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/2d0dc65b-626c-43af-9bff-d729252731b6"/>
-
-
-## Sprint 2
-| Tarefa | Prioridade | Status |
-| --- | --- | --- |
-| Desenvolvimento da tela de registro de atividades     | Alta | Entregue |
-| Integração com o banco de dados | Alta | Entregue |
-| Frontend tela de login | Média | Entregue |
-| Frontend tela de cadastro | Média | Entregue |
-| Frontend tela de carregamento de arquivos | Média | Entregue |
+| Alteração no tamanho e qualidade das respostas | Alta | Entregue |
+| Melhoria na exibição do histórico | Alta | Entregue |
+| Criptografia de senhas | Média | Entregue |
+| Multithreading | Média | Entregue |
+| Exclusão de arquivos temporários | Média | Entregue |
 | Frontend tela de chat | Média | Entregue |
-| Tela de cadastro. | Baixa | Entregue |
-| Tela de login. | Baixa | Entregue |
-
-<image alt="sprint2gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a2120cdf-8df0-4202-b9b3-61fcb2e6fd25"/>
-
-## Sprint 3
-| Tarefa | Prioridade | Status |
-| --- | --- | --- |
-| Aperfeiçoamento do código para melhor experiência de respostas | Alta | Entregue |
-| Botão para recuperar senha | Média | Entregue |
-| Tela para solicitação de senha | Média | Entregue |
-| Sistema de confirmação de e-mail | Média | Entregue |
-| Tela para criação de nova senha | Média | Entregue |
-| Botão para ocultar/mostrar senha | Baixa | Entregue |
+| Documentação Quickstart | Baixa | Entregue |
 
 
 <image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/6ebb6341-1674-4428-b261-929daadb988e"/>
-
-</div>
-
-</details>
-
 
 ## 📌 User Stories
 
@@ -150,6 +117,12 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | US17 | 3 | EU, enquanto usuário, desejo ser direcionado para uma tela de recuperação de senha. | 2:00 | Criação de um frontend e backend de um sistema que enviará um e-mail com um token de confirmação. | Uma tela funcional que envie um e-mail com um token de confirmação para a recuperação de senha. |
 | US18 | 3 | Eu, enquanto usuário, desejo ser direcionado para uma tela de criação de nova senha. | 6:30 | Criação de frontend e backend de um sistema de inserção do token de confirmação | Uma tela funciona onde o usuário ira inserir o token e estará habilitado a criar uma nova senha. |
 | US19 | 3 | EU, enquanto usuário, desejo poder ocultar ou mostrar minha senha digitada no campo de texto na tela de login. | 1:00 | Alteração no frontend da tela de login para adição de um botão ocultar/mostrar senha. | Um botão funcional que oculte ou mostre a senha digitada no campo de senha na tela de login. |
+| US20 | 4 | EU, enquanto usuário, desejo obter respostas maiores e mais completas. | 3:00 | Modificar o código para aumentar e melhorar as respostas obtidas. | Respostas maiores e mais concisas sobre o tema do texto carregado. |
+| US21 | 4 | EU, enquanto usuário, desejo visualizar informações apenas do usuário logado no histórico. | 4:00 | Alterações no código e banco de dados. | Ao acessar o histórico de acessos, exibir apenas informações do usuário logado. |
+| US22 | 4 | EU, enquanto usuário, desejo ter um sistema de senha mais seguro. | 2:15 | Implementação de criptografia de senhas (hash). | Senhas criptografadas. |
+| US23 | 4 | EU, enquanto usuário, desejo que os arquivos criados pela aplicação sejam excluídos após o uso. | 1:00 | Implementação de código para exclusão de arquivos criados pela aplicação após o uso. | Exclusão dos arquivos .txt criados pela aplicação após o uso. |
+| US24 | 4 | EU, enquanto usuário, desejo poder enviar novas perguntas enquanto a aplicação processa outra resposta. | 1:00 | Implementação de código para uso do multithreading. | Aplicação recebendo perguntas e gerando respostas ao mesmo tempo sem travamento. |
+| US25 | 4 | EU, enquanto usuário, desejo ter um guia rápido para utilizar a aplicação. | 1:15 | Criação de documentação para instrução de uso da aplicação. | Documentação quickstart para auxílio na utilização da aplicação. |
 
 </details>
 
