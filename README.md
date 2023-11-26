@@ -89,8 +89,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | Frontend tela de chat | Média | Entregue |
 | Documentação Quickstart | Baixa | Entregue |
 
-
-<image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/6ebb6341-1674-4428-b261-929daadb988e"/>
+<image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a6b10f7b-0d3b-4bf9-986d-2cbf7fa03569"/>
 
 ## 📌 User Stories
 
