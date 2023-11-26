@@ -72,11 +72,57 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 4 | Multithreading | Média | Implementação de multithreading permitindo o processamento de mais de uma resposta e pergunta ao mesmo tempo. |
 | 4 | Exclusão de arquivos temporários | Média | Implementação de código para excluir arquivos gerados pela aplicação. |
 | 4 | Documentação | Baixa | Criação de um quickstart para guiar a utilização da aplicação |
-
+   
 </details>
 
 ## 🎥 Video Apresentação
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
+
+<details>
+ <summary>Sprints</summary>
+  
+## Sprint 1   
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Desenvolvimento do Product Backlog | Alta | Entregue |
+| Criação de Protótipo para referência. | Alta | Entregue |
+| Criação de Repositórios para documentação via Github. | Alta | Entregue |
+| Integração com a IA | Alta | Entregue |
+| Desenvolver uma tela de carregamento de arquivos. | Média | Entregue |
+| Desenvolver uma tela de chat. | Média | Entregue |
+| Tela de login | Baixa | Entregue |
+| Tela de cadastro | Baixa | Entregue |
+
+<image alt="sprint1gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/2d0dc65b-626c-43af-9bff-d729252731b6"/>
+
+
+## Sprint 2
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Desenvolvimento da tela de registro de atividades     | Alta | Entregue |
+| Integração com o banco de dados | Alta | Entregue |
+| Frontend tela de login | Média | Entregue |
+| Frontend tela de cadastro | Média | Entregue |
+| Frontend tela de carregamento de arquivos | Média | Entregue |
+| Frontend tela de chat | Média | Entregue |
+| Tela de cadastro. | Baixa | Entregue |
+| Tela de login. | Baixa | Entregue |
+
+<image alt="sprint2gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a2120cdf-8df0-4202-b9b3-61fcb2e6fd25"/>
+
+## Sprint 3
+| Tarefa | Prioridade | Status |
+| --- | --- | --- |
+| Aperfeiçoamento do código para melhor experiência de respostas | Alta | Entregue |
+| Botão para recuperar senha | Média | Entregue |
+| Tela para solicitação de senha | Média | Entregue |
+| Sistema de confirmação de e-mail | Média | Entregue |
+| Tela para criação de nova senha | Média | Entregue |
+| Botão para ocultar/mostrar senha | Baixa | Entregue |
+
+
+<image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/6ebb6341-1674-4428-b261-929daadb988e"/>
+
 
 ## Sprint 4
 | Tarefa | Prioridade | Status |
@@ -89,7 +135,10 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | Frontend tela de chat | Média | Entregue |
 | Documentação Quickstart | Baixa | Entregue |
 
-<image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a6b10f7b-0d3b-4bf9-986d-2cbf7fa03569"/>
+<image alt="sprint4gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a6b10f7b-0d3b-4bf9-986d-2cbf7fa03569"/>
+
+</details>
+
 
 ## 📌 User Stories
 
