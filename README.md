@@ -39,6 +39,9 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 <span id="backlog--entregas">
    
 ## :pushpin: Product Backlog
+
+<details>
+   
 | Sprint | Requisitos | Prioridade | Descrição |
 | --- | --- | --- | --- |
 | 1 | Tela de carregamento de doc. funcional. | Alta | Uma interface gráfica para o carregamento do arquivo de texto a inserir no assistente virtual. |
@@ -69,9 +72,14 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | 4 | Multithreading | Média | Implementação de multithreading permitindo o processamento de mais de uma resposta e pergunta ao mesmo tempo. |
 | 4 | Exclusão de arquivos temporários | Média | Implementação de código para excluir arquivos gerados pela aplicação. |
 | 4 | Documentação | Baixa | Criação de um quickstart para guiar a utilização da aplicação |
+   
+</details>
+
 ## 🎥 Video Apresentação
 <strong>Para assistir a nossa apresentação clique no <a href="https://www.youtube.com/watch?v=88JKqxKlnaI">Link</a></strong>
 
+<details>
+ <summary>Sprints</summary>
   
 ## Sprint 1   
 | Tarefa | Prioridade | Status |
@@ -115,6 +123,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
 <image alt="sprint3gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/6ebb6341-1674-4428-b261-929daadb988e"/>
 
+
 ## Sprint 4
 | Tarefa | Prioridade | Status |
 | --- | --- | --- |
@@ -126,12 +135,15 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | Frontend tela de chat | Média | Entregue |
 | Documentação Quickstart | Baixa | Entregue |
 
+<image alt="sprint4gif" src="https://github.com/Byte-Boost/Duck/assets/76211125/a6b10f7b-0d3b-4bf9-986d-2cbf7fa03569"/>
 
-</div>
-
+</details>
 
 
 ## 📌 User Stories
+
+<details>
+   
 | ID | SPRINT | US | ESTIMATIVA DE ESFORÇO EM HORAS | TASK | CRITÉRIO DE ACEITAÇÃO |
 | --- | --- | --- | --- | --- | --- |
 | US01 | 1 | EU, enquanto cliente, desejo estar ciente das etapas do processo de desenvolvimento do produto. | 2:00 | Desenvolvimento do backlog total do produto e das Sprints. | Product Backlog e Sprint Backlog com US da primeira sprint. |
@@ -159,6 +171,8 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 | US23 | 4 | EU, enquanto usuário, desejo que os arquivos criados pela aplicação sejam excluídos após o uso. | 1:00 | Implementação de código para exclusão de arquivos criados pela aplicação após o uso. | Exclusão dos arquivos .txt criados pela aplicação após o uso. |
 | US24 | 4 | EU, enquanto usuário, desejo poder enviar novas perguntas enquanto a aplicação processa outra resposta. | 1:00 | Implementação de código para uso do multithreading. | Aplicação recebendo perguntas e gerando respostas ao mesmo tempo sem travamento. |
 | US25 | 4 | EU, enquanto usuário, desejo ter um guia rápido para utilizar a aplicação. | 1:15 | Criação de documentação para instrução de uso da aplicação. | Documentação quickstart para auxílio na utilização da aplicação. |
+
+</details>
 
 <span id="requisitos">
 
@@ -227,6 +241,49 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
    <img align="left" title="figma-logo" height="30px" src="https://skillicons.dev/icons?i=figma"/>
    Figma
  </p>
+ 
+<span id="como-usar">
+   
+# Como utilizar
+
+ Requisitos :
+ - IntelliJ IDEA
+ - Java 17+
+ - JFX 20+
+ - Git
+ - [Gradle](https://gradle.org/install/)
+
+> [!IMPORTANT]
+> Configure as [Variáveis de Ambiente](https://phoenixnap.com/kb/windows-set-environment-variable)
+
+```java
+DUCK_API_KEY = API do Hugging-Face
+DUCK_DB_PASSWORD = Senha do banco local
+DUCK_DB_USER = Usuario do banco local
+DUCK_EMAIL = E-mail que realizará envio de confirmações de senha
+DUCK_EMAIL_PASSWORD = Senha do E-mail acima
+```
+
+Após configurar as variáveis
+1. Abra o cmd na pasta aonde deseja instalar o projeto
+2. Execute os comandos 
+```
+git clone https://github.com/Byte-Boost/Duck
+cd Duck
+cd Backend_Duck
+idea64.exe
+```
+3. Vá para as configuraçõees de Run/Debug
+4. Clique em Modify options
+5. Clique em Add VM options
+6. No campo agora disponivel adicione o seguinte, modificando PATH_TO_JAVAFX/lib com o caminho da pasta lib dentro do diretorio do JavaFX local.
+
+> [!WARNING]
+> Não se esqueça de colocar o caminho entre aspas.
+```
+--module-path PATH_TO_JAVAFX/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls
+```
+7. Rode o projeto através do IntelliJ
 
 
 <span id="equipe">
