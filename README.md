@@ -273,11 +273,11 @@ idea64.exe
 ```
 7. Configure um arquivo config.properties, seguindo o modelo configDEV.properties
 ```properties
-DUCK_API_KEY = API do Hugging-Face
-DUCK_DB_PASSWORD = Senha do banco local
-DUCK_DB_USER = Usuario do banco local
-DUCK_EMAIL = E-mail que realizará envio de confirmações de senha
-DUCK_EMAIL_PASSWORD = Senha do E-mail acima
+API_KEY = API key
+DB_USER = Database User
+DB_PASS = Database Password
+EMAIL_USER = ExampleEmail@gmail.com
+EMAIL_PASS = Your Gmail App Password
 ```
 8. Rode o projeto através do IntelliJ
 
