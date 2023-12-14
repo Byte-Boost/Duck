@@ -176,7 +176,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
 <span id="requisitos">
 
-## :mag_right: Requisitos
+## 🔎 Requisitos
 <details>
    <summary>Funcionais:</summary>
    <ul>
@@ -198,7 +198,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
 
 <span id="tecnologias">
    
-## :desktop_computer:Tecnologias:
+## 🖥️Tecnologias:
 * <p>
    <img align="left" title="intellij-logo" height="30px" src="https://skillicons.dev/icons?i=java"/>
    Java
@@ -225,7 +225,7 @@ Nosso produto é uma aplicação Java desktop que, através de inteligência art
  </p>
 
 
-## :hammer_and_wrench:Ferramentas:
+## 🛠️ Ferramentas:
 * <p>
    <img align="left" title="github-dark" height="30px" src="https://user-images.githubusercontent.com/76211125/227561942-1503fb74-eb8e-41d1-936e-bf22bc2d70eb.png#gh-dark-mode-only"/>
    <img align="left" title="github-light" height="30px" src="https://user-images.githubusercontent.com/76211125/227561896-a90cea71-7431-4908-ac8d-71fc02603eeb.png#gh-light-mode-only"/>
@@ -284,7 +284,7 @@ EMAIL_PASS = Your Gmail App Password
 
 <span id="equipe">
    
-## :busts_in_silhouette:Equipe:
+## 👥 Equipe:
    ### ![Static Badge](https://img.shields.io/badge/Product_Owner-219ebc) - Diego Vitvicki :
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/diegovitvicki/)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/dievit)
